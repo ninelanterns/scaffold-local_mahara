@@ -16,4 +16,6 @@
 
 $plugin->version  = 2013062314;
 $plugin->release = '1.0 (Build: 2013062314)';
+$plugin->requires  = 2014111003;
+$plugin->component = 'local_mahara';
 $plugin->maturity = MATURITY_STABLE;
