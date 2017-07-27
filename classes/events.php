@@ -1,6 +1,8 @@
 <?php
 
-abstract class mahara_local_events {
+namespace local_mahara;
+
+class observer {
   /**
    * Gets the service that handles things
    *
@@ -11,7 +13,7 @@ abstract class mahara_local_events {
       require_once dirname(__FILE__) . '/mnetlib.php';
     }
 
-    return new mahara_mnetservice(-1);
+    return new \mahara_mnetservice(-1);
   }
 
   /**
